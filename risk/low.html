@@ -1,107 +1,69 @@
-<!doctype html>
-<html lang="uk">
-<head>
-  <meta charset="utf-8">
-  <title>Низький ризик інсульту</title>
-  <style>
-    body {
-      font-family: "Segoe UI", Arial, sans-serif;
-      background: #f9fafb;
-      color: #333;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-    header, footer {
-      background: #2e7d32;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
-    }
-    main {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 2rem;
-    }
-    .card {
-      background: #fff;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      max-width: 700px;
-      text-align: left;
-    }
-    h1 {
-      margin-top: 0;
-      color: #2e7d32;
-      text-align: center;
-    }
-    h2 {
-      margin-top: 1.5rem;
-      color: #444;
-    }
-    p, li {
-      font-size: 1.05rem;
-      line-height: 1.6;
-    }
-    ul {
-      padding-left: 1.2rem;
-    }
-    a.button {
-      display: inline-block;
-      margin-top: 2rem;
-      padding: 0.6rem 1.2rem;
-      background: #2e7d32;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 6px;
-      transition: background 0.2s;
-    }
-    a.button:hover {
-      background: #256628;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h2>Інформація про ризик інсульту</h2>
-  </header>
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Низький ризик інсульту</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <style>
+  #banner {
+    background-color: #2e7d32; /* зелений для low */
+    color: #fff;
+  }
+  #banner h2 {
+    color: #fff;
+  }
+    </style>
+  </head>
+  <body>
+    <header id="header" class="alt">
+      <h1><a href="../index.html">Ризик інсульту</a></h1>
+    </header>
 
-  <main>
-    <div class="card">
-      <h1>Ваш ризик інсульту низький</h1>
+    <section id="banner">
+      <div class="inner">
+        <h2>Ваш ризик інсульту низький</h2>
+        <p>Прогноз на найближчі 10 років сприятливий.<br/> Імовірність нижча, ніж у середньому по вашій віковій групі.</p>
+        <ul class="actions">
+          <li><a href="../index.html" class="button special">Повернутися на головну</a></li>
+        </ul>
+      </div>
+    </section>
 
-      <h2>Що це означає</h2>
-      <p>
-        За наявних даних, ваш прогноз на найближчі <strong>10 років</strong> є сприятливим.
-        Імовірність інсульту нижча, ніж у середньому по населенню вашого віку.
-      </p>
+    <section id="wrapper">
+      <section class="wrapper spotlight style1">
+        <div class="inner">
+          <h2 class="major">Що це означає</h2>
+          <p>Ваш теперішній стан здоров’я дозволяє прогнозувати низьку ймовірність інсульту протягом наступних 10 років.</p>
+        </div>
+      </section>
+      <section class="wrapper alt spotlight style2">
+        <div class="inner">
+          <h2 class="major">Прогноз</h2>
+          <p>Якщо ви збережете теперішній спосіб життя, ризик залишатиметься низьким. Але навіть низький ризик ≠ нульовий.</p>
+        </div>
+      </section>
+      <section class="wrapper spotlight style3">
+        <div class="inner">
+          <h2 class="major">Поради</h2>
+          <ul>
+            <li>Регулярний контроль тиску (раз на 6–12 місяців).</li>
+            <li>150 хвилин фізичної активності на тиждень.</li>
+            <li>Збалансоване харчування.</li>
+            <li>Відмова від куріння та алкоголю.</li>
+            <li>Профілактичні огляди у лікаря.</li>
+          </ul>
+        </div>
+      </section>
+    </section>
 
-      <h2>Прогноз</h2>
-      <p>
-        Якщо ви збережете теперішній спосіб життя, ризик залишатиметься низьким.
-        Важливо пам’ятати, що навіть низький ризик не дорівнює нулю, тому профілактика має значення.
-      </p>
+    <footer id="footer">
+      <p>© 2025 Інформаційний проєкт про профілактику інсульту</p>
+    </footer>
 
-      <h2>Поради для підтримки здоров’я</h2>
-      <ul>
-        <li>Регулярно контролюйте артеріальний тиск (раз на 6–12 місяців).</li>
-        <li>Підтримуйте фізичну активність: щонайменше 150 хвилин на тиждень.</li>
-        <li>Збалансоване харчування: більше овочів, фруктів, менше солі та цукру.</li>
-        <li>Відмова від куріння та обмеження алкоголю.</li>
-        <li>Регулярні профілактичні огляди у сімейного лікаря.</li>
-      </ul>
-
-      <a href="/" class="button">Повернутися на головну</a>
-    </div>
-  </main>
-
-  <footer>
-    <small>© 2025 Інформаційний проєкт про профілактику інсульту</small>
-  </footer>
-</body>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
 </html>
